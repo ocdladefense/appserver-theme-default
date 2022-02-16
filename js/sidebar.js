@@ -55,8 +55,30 @@ function openNav() {
       
   }
 
+  function addSublinks(allLinks) {
 
+    var parentLink = document.getElementById(allLinks["parentLinkId"]);
 
+    var ul = document.createElement("ul");
+
+    var sublinks = allLinks["sublinks"];
+
+    for(let i = 0; i < sublinks.length; i++){
+
+      var link = sublinks[i];
+
+      var listItem = document.createElement("li");
+  
+      var a = document.createElement("a");
+      a.setAttribute("href", link["href"]);
+      a.innerHTML = link["label"];
+
+      listItem.appendChild(a);
+      ul.appendChild(listItem);
+    }
+
+    parentLink.appendChild(ul);
+  }
 
 
 

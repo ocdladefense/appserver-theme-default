@@ -97,7 +97,8 @@ class DefaultTheme extends Theme {
 		return $template->render(array(
 			"content" => $content,
 			"scripts" => self::pageScripts($this->scripts),
-			"styles" => self::pageStyles($this->styles)
+			"styles" => self::pageStyles($this->styles),
+			"links"	=> $this->links
 			)
 		);
 	}

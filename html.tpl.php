@@ -134,6 +134,16 @@ use function Session\get_current_user;
                     <?php load_template("sidebar"); ?>
 
 
+                    <?php if($user->isAdmin()) : ?>
+
+                        <script>
+                            addSublinks(<?php print json_encode($links); ?>);
+                        </script>
+
+                    <?php endif; ?>
+
+
+
                     <div id="stage" class="column column-middle">
 
                         <div id="stage-content">

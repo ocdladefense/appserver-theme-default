@@ -24,9 +24,7 @@
 
         <li class="side-menu-item"><a href="/jobs"><i class="fas fa-briefcase" aria-hidden="true"></i>jobs</a></li>
 
-        <li class="side-menu-item"><a href="/car/list"><i class="fas fa-database fa-2x" aria-hidden="true"></i>case reviews</a></li>
-
-        <li class="side-menu-item"><a href="/car/list"><i class="fas fa-database fa-2x" aria-hidden="true"></i>case reviews</a></li>
+        <li id="case-reviews" class="side-menu-item"><a href="/car/list"><i class="fas fa-database fa-2x" aria-hidden="true"></i>case reviews</a></li>
 
         <!--<li class="side-menu-item"><i class="fas fa-map-pin fa-2x" aria-hidden="true"></i><a href="/maps">maps</a></li>-->
 

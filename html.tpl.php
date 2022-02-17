@@ -134,13 +134,17 @@ use function Session\get_current_user;
                     <?php load_template("sidebar"); ?>
 
 
-                    <?php if($user->isAdmin()) : ?>
+                    <?php if(!$user->isAdmin()) {
 
-                        <script>
-                            addSublinks(<?php print json_encode($links); ?>);
-                        </script>
+                        $links = array_values(array_filter($links, function($link){
 
-                    <?php endif; ?>
+                            return $link["adminLink"] != true;
+                        }));
+                    }?>
+
+                    <script>
+                        addLinks(<?php print json_encode($links); ?>);
+                    </script>
 
 
 

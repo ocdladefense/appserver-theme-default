@@ -55,29 +55,78 @@ function openNav() {
       
   }
 
-  function addSublinks(allLinks) {
 
-    var parentLink = document.getElementById(allLinks["parentLinkId"]);
+  function addLinks(links) {
 
-    var ul = document.createElement("ul");
+    let sublinks = links.filter(function(link){
 
-    var sublinks = allLinks["sublinks"];
+      return link["isSublink"] == true;
+    });
 
-    for(let i = 0; i < sublinks.length; i++){
+    let topLevelLinks = links.filter(function(link){
 
-      var link = sublinks[i];
+      return link["isSublink"] != true;
+    });
 
-      var listItem = document.createElement("li");
-  
+    addSublinks(sublinks);
+    addTopLevelLinks(topLevelLinks);
+  }
+
+  function addSublinks(links) {
+
+    for(var i = 0; i < links.length; i++){
+
+      var link = links[i];
+
+      var parentLink = document.getElementById(link["parentLinkId"]);
+
+      if(parentLink == null) {
+        console.error("There is no parent link with the id '" + link["parentLinkId"] + "' for '" + link["label"] + "'");
+      }
+
+      if(parentLink.lastChild.tagName == "UL") {
+        
+        var ul = parentLink.lastChild;
+        
+      } else {
+        
+        var ul = document.createElement("ul");
+        var isNewUL = true;
+      }
+
       var a = document.createElement("a");
       a.setAttribute("href", link["href"]);
       a.innerHTML = link["label"];
 
-      listItem.appendChild(a);
-      ul.appendChild(listItem);
-    }
+      var li = document.createElement("li");
+      li.appendChild(a);
+      ul.appendChild(li);
 
-    parentLink.appendChild(ul);
+      if(isNewUL) parentLink.appendChild(ul);
+    }
+  }
+
+
+  function addTopLevelLinks(links) {
+
+    var sidebarLinks = document.getElementById("sidebar-links");
+
+    for(var i = 0; i < links.length; i++){
+
+      var li = document.createElement("li");
+      li.classList.add("side-menu-item");
+
+      var a = document.createElement("a");
+      a.setAttribute("href", links[i]["href"]);
+
+      a.innerHTML = links[i]["label"];
+
+      li.appendChild(a);
+
+      console.log(li);
+    
+      sidebarLinks.appendChild(li);
+    }
   }
 
 

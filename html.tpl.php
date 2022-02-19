@@ -131,7 +131,9 @@ use function Session\get_current_user;
 
                     <div id="container-left" class="column column-left"></div>
 
+
                     <?php load_template("sidebar", array("links" => $links)); ?>
+
 
                     <div id="stage" class="column column-middle">
 

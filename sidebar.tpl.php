@@ -39,4 +39,16 @@
         <li class="side-menu-item"><a href="https://www.ocdla.org/contact-us" target="_new"><i class="fas fa-mobile-alt fa-2x" aria-hidden="true"></i>contact us</a></li>
 
     </ul>
+
+
+
+    <ul>
+        <?php
+            foreach($links as $link) {
+                // print \Html\HtmlA($link);
+            }
+        ?>
+    </ul>
+
+
 </div>

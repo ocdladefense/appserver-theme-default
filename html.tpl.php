@@ -131,21 +131,8 @@ use function Session\get_current_user;
 
                     <div id="container-left" class="column column-left"></div>
 
-                    <?php load_template("sidebar"); ?>
 
-
-                    <?php if(!$user->isAdmin()) {
-
-                        $links = array_values(array_filter($links, function($link){
-
-                            return $link["adminLink"] != true;
-                        }));
-                    }?>
-
-                    <script>
-                        addLinks(<?php print json_encode($links); ?>);
-                    </script>
-
+                    <?php load_template("sidebar", array("links" => $links)); ?>
 
 
                     <div id="stage" class="column column-middle">
@@ -191,7 +178,7 @@ use function Session\get_current_user;
 
     <footer>
         <div class="container">
-            &copy;&nbsp;Oregon Criminal Defense Lawyers Associaton 2020-2021
+            &copy;&nbsp;Oregon Criminal Defense Lawyers Associaton 2022
         </div>
     </footer>
 

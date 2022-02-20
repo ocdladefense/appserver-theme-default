@@ -1,4 +1,4 @@
-<div id="sidenav" class="sidenav">
+<div id="sidenav" class="menu menu-flyout menu-flyout-left">
     
     <div class="user">
 

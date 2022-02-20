@@ -54,7 +54,7 @@ class DefaultTheme extends Theme {
 			"src" => "/content/libraries/view/modal.js"
 		),
 		array(
-			"src" => "/content/themes/default/components/drawer/js/drawer.js"
+			"src" => "/content/themes/default/components/drawer/js/sidebar.js"
 		)
 		
 		// $module_path = "/modules/webconsole";

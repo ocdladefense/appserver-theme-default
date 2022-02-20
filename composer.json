@@ -1,0 +1,12 @@
+{
+    "name": "ocdladefense/appserver-theme-default",
+    "description": "A default theme for the OCDLA appserver.",
+    "type": "wordpress-theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jose Bernal",
+            "email": "jbernal.web.dev@gmail.com"
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+
+
+# Ignore some components in their own repositories.
+/components/drawer

@@ -28,32 +28,30 @@
 
 
 
-  function addMobileMenuBtn(elementName,isCssClass){
+  function addMobileMenuBtn(selector){
 
-    isCssClass = isCssClass != true ? false : true;
-    elementName = elementName == null || elementName == "" ? "mobile-menu-btn": elementName;
+ 
+    id = id || "#menu";
 
-    let parent;
-    let mobileMenuBtn = document.createElement('span');
-    mobileMenuBtn.id = "menu";
-    mobileMenuBtn.innerHTML = "&#9776;";
-    mobileMenuBtn.onclick = function() {openNav('55%');};
-
-
-    if(isCssClass){
-      parent = document.getElementsByClassName(elementName)[0];
-    }
-    else if (parent == null){
-
-      parent = document.getElementById(elementName);
-
-    }else if(parent == null){
-      parent = document.createElement('div');
-    }
+    let parent = document.createElement('div');
+  
 
     parent.appendChild(mobileMenuBtn);
     parent.style.display = "inline-block";
   }
+
+
+
+
+  function createButton() {
+    let button = document.createElement('span');
+    button.id = "menu";
+    button.innerHTML = "&#9776;";
+    button.onclick = function() {openNav('55%');};
+
+    return button;
+  }
+
 
 
   window.onload = function(){
@@ -74,5 +72,82 @@
       });
     };
   }
+
+
+  /*
+  function addLinks(links) {
+
+    let sublinks = links.filter(function(link){
+
+      return link["isSublink"] == true;
+    });
+
+    let topLevelLinks = links.filter(function(link){
+
+      return link["isSublink"] != true;
+    });
+
+    addSublinks(sublinks);
+    addTopLevelLinks(topLevelLinks);
+  }
+
+  function addSublinks(links) {
+
+    for(var i = 0; i < links.length; i++){
+
+      var link = links[i];
+
+      var parentLink = document.getElementById(link["parentLinkId"]);
+
+      if(parentLink == null) {
+        console.error("There is no parent link with the id '" + link["parentLinkId"] + "' for '" + link["label"] + "'");
+      }
+
+      if(parentLink.lastChild.tagName == "UL") {
+        
+        var ul = parentLink.lastChild;
+        
+      } else {
+        
+        var ul = document.createElement("ul");
+        var isNewUL = true;
+      }
+
+      var a = document.createElement("a");
+      a.setAttribute("href", link["href"]);
+      a.innerHTML = link["label"];
+
+      var li = document.createElement("li");
+      li.appendChild(a);
+      ul.appendChild(li);
+
+      if(isNewUL) parentLink.appendChild(ul);
+    }
+  }
+
+
+  function addTopLevelLinks(links) {
+
+    var sidebarLinks = document.getElementById("sidebar-links");
+
+    for(var i = 0; i < links.length; i++){
+
+      var li = document.createElement("li");
+      li.classList.add("side-menu-item");
+
+      var a = document.createElement("a");
+      a.setAttribute("href", links[i]["href"]);
+
+      a.innerHTML = links[i]["label"];
+
+      li.appendChild(a);
+
+      console.log(li);
+    
+      sidebarLinks.appendChild(li);
+    }
+  }
+  */
+
 
 

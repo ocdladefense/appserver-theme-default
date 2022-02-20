@@ -8,7 +8,6 @@ use function Session\get_current_user;
  $user = get_current_user();
  $loginMessage = !$user->is_logged_in() ? "Logged in as Guest" : "Hello {$user->getFirstName()}";
  $profileUrl = !$user->is_logged_in() ? "#" : "/user/profile";
-
 ?>
 <!doctype html>
 <html>
@@ -46,14 +45,18 @@ use function Session\get_current_user;
 </head>
 
 <body style="background-color: rgba(191,161,46,1.0); color: rgba(255,255,255,1.0);">
+    <nav id="drawer" class="accordion">
 
-    <div style="min-height: 100%; min-width: 100%; background-color: #fff;">
+    </nav>
+
+    
+    <div id="wrapper" style="min-height: 100%; min-width: 100%; background-color: #fff;">
 
         <div id="header">
 
             <div id="header-content" class="header-content">
 
-				<div id="mobile-menu-btn"></div>
+				<div id="menu"></div>
 
                 <div id="logo">
                     <a href="//ocdla.app">

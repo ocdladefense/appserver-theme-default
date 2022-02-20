@@ -56,7 +56,7 @@ use function Session\get_current_user;
 				<div id="mobile-menu-btn"></div>
 
                 <div id="logo">
-                    <a href="//www.ocdla.org">
+                    <a href="//ocdla.app">
                         <img src="/content/images/logo.png" />
                     </a>
                 </div>

@@ -54,7 +54,7 @@ class DefaultTheme extends Theme {
 			"src" => "/content/libraries/view/modal.js"
 		),
 		array(
-			"src" => "/content/themes/default/js/sidebar.js"
+			"src" => "/content/themes/default/components/drawer/js/drawer.js"
 		)
 		
 		// $module_path = "/modules/webconsole";
@@ -151,7 +151,7 @@ class DefaultTheme extends Theme {
 			),
 			array(
 				"active" => true,
-				"href" => $path . "/css/sidebar.css?bust=001"
+				"href" => $path . "/components/drawer/css/sidebar.css?bust=001"
 			),
 			array(
 				"active" => true,

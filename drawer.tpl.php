@@ -45,15 +45,12 @@
 
 
     <ul>
-        <?php
-if(is_array($secondary_links)) {
-            foreach($secondary_links as $link) {
-                
-                
-                // print \Html\HtmlA($link);
-            }
-}
-        ?>
+        <li class="side-menu-item menu-secondary-item">
+            <a href="/car/new" title="Add a new Case Review">Add Case Review</a>
+</li>  
+<li class="side-menu-item menu-secondary-item">
+            <a href="/car/mail/create" title="Send Mail">Send Mail</a>
+</li>   
     </ul>
 
 

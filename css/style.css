@@ -1,4 +1,6 @@
 
+
+
 .fullscreen #container-left {
     display: none;
 }
@@ -72,7 +74,7 @@ div#sidenav{
 
 @media screen and (max-width:400px){
     #logo{
-        width:unset;
+        width:60%;
     }
 }
 
@@ -81,5 +83,3 @@ div#sidenav{
         max-width: 100px;
     }
 }
-
-.sidenav{display:none;}

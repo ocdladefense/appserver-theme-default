@@ -46,12 +46,13 @@
 
     <ul>
         <?php
-
+if(is_array($secondary_links) {
             foreach($secondary_links as $link) {
                 
                 
                 // print \Html\HtmlA($link);
             }
+}
         ?>
     </ul>
 

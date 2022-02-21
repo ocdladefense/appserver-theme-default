@@ -46,7 +46,10 @@
 
     <ul>
         <?php
-            foreach($links as $link) {
+
+            foreach($secondary_links as $link) {
+                
+                
                 // print \Html\HtmlA($link);
             }
         ?>

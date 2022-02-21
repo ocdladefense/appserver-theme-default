@@ -158,6 +158,10 @@ class DefaultTheme extends Theme {
 			array(
 				"active" => true,
 				"href" => $path . "/css/style.css?bust=001"
+			),
+			array(
+				"active" => true,
+				"href" => $path . "/css/drawer.css?bust=001"
 			)
 		);
 	

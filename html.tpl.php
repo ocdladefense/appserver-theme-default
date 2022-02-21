@@ -45,9 +45,11 @@ use function Session\get_current_user;
 </head>
 
 <body style="background-color: rgba(191,161,46,1.0); color: rgba(255,255,255,1.0);">
-    <nav id="drawer" class="accordion">
+    
+    <!-- This is where the drawer menu items will go -->
 
-    </nav>
+    <?php load_template("drawer", array("links" => $links)); ?>
+
 
     
     <div id="wrapper" style="min-height: 100%; min-width: 100%; background-color: #fff;">
@@ -56,7 +58,9 @@ use function Session\get_current_user;
 
             <div id="header-content" class="header-content">
 
-				<div id="menu"></div>
+				<div id="drawer-toggle">
+                    <span id="drawer-toggle-button" style="display:inline-block;">&#9776;</span>
+                </div>
 
                 <div id="logo">
                     <a href="//ocdla.app">
@@ -133,9 +137,6 @@ use function Session\get_current_user;
                 <div class="container-content">
 
                     <div id="container-left" class="column column-left"></div>
-
-
-                    <?php load_template("sidebar", array("links" => $links)); ?>
 
 
                     <div id="stage" class="column column-middle">

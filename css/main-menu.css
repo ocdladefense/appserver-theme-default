@@ -2,7 +2,7 @@
  * Styling for .main-menu
  * Represents one or more instances of the .main-menu widget.
  *  We should assume that this menu could be placed in more than one location on the page,
- *   even if we don't assume that both menu are always displaying.
+ *   even if we don't assume that both menus are always displaying.
  */
  
 ul.main-menu {

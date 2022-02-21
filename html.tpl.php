@@ -45,11 +45,11 @@ use function Session\get_current_user;
 </head>
 
 <body style="background-color: rgba(191,161,46,1.0); color: rgba(255,255,255,1.0);">
-    <nav id="drawer" class="accordion">
-        <!-- This is where the drawer menu items will go -->
+    
+    <!-- This is where the drawer menu items will go -->
 
-        <?php load_template("drawer", array("links" => $links)); ?>
-    </nav>
+    <?php load_template("drawer", array("links" => $links)); ?>
+
 
     
     <div id="wrapper" style="min-height: 100%; min-width: 100%; background-color: #fff;">

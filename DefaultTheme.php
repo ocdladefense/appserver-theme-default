@@ -151,7 +151,7 @@ class DefaultTheme extends Theme {
 			),
 			array(
 				"active" => true,
-				"href" => $path . "/components/drawer/css/sidebar.css?bust=001"
+				"href" => $path . "/components/drawer/css/drawer.css?bust=001"
 			),
 			array(
 				"active" => true,

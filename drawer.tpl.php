@@ -46,7 +46,7 @@
 
     <ul>
         <?php
-if(is_array($secondary_links) {
+if(is_array($secondary_links)) {
             foreach($secondary_links as $link) {
                 
                 

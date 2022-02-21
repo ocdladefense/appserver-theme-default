@@ -39,21 +39,25 @@
         <!--<li class="side-menu-item"><i class="fas fa-comment-dots fa-2x" aria-hidden="true"></i><a href="/feedback">feedback</a></li>-->
 
         <li class="side-menu-item"><a href="https://www.ocdla.org/contact-us" target="_new"><i class="fas fa-mobile-alt" aria-hidden="true"></i>contact us</a></li>
+        
 
     </ul>
 
 
 
     <ul>
+
         <?php
-if(is_array($secondary_links)) {
-            foreach($secondary_links as $link) {
+
+            if(is_array($secondary_links)) {
                 
-                
-                // print \Html\HtmlA($link);
+                foreach($secondary_links as $link) {
+                    
+                    print "<li class='side-menu-item menu-secondary-item'>" . html("a", $link) . "</li>";
+                }
             }
-}
         ?>
+
     </ul>
 
 

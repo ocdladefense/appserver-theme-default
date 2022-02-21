@@ -48,7 +48,10 @@ use function Session\get_current_user;
     
     <!-- This is where the drawer menu items will go -->
 
-    <?php load_template("drawer", array("links" => $links)); ?>
+    <?php 
+    
+
+    load_template("drawer", array("secondary_links" => $secondary_links)); ?>
 
 
     

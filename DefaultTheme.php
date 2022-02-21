@@ -94,11 +94,13 @@ class DefaultTheme extends Theme {
 
 		$template = new Template("html");
 
+
+
 		return $template->render(array(
-			"content" => $content,
-			"scripts" => self::pageScripts($this->scripts),
-			"styles" => self::pageStyles($this->styles),
-			"links"	=> $this->links
+			"content" 			=> $content,
+			"scripts" 			=> self::pageScripts($this->scripts),
+			"styles" 			=> self::pageStyles($this->styles),
+			"secondary_links"	=> $this->secondary_links
 			)
 		);
 	}

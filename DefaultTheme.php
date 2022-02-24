@@ -100,7 +100,7 @@ class DefaultTheme extends Theme {
 			"content" 			=> $content,
 			"scripts" 			=> self::pageScripts($this->scripts),
 			"styles" 			=> self::pageStyles($this->styles),
-			"secondary_links"	=> $this->secondary_links
+			"secondary_links"	=> self::$secondary_links
 			)
 		);
 	}

@@ -8,5 +8,13 @@
             "name": "Jose Bernal",
             "email": "jbernal.web.dev@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "classmap":[
+            "components/"
+        ],
+        "files":[
+            "components/drawer/DrawerComponent.php"
+        ]
+    }
 }

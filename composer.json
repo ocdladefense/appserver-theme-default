@@ -12,9 +12,6 @@
     "autoload": {
         "classmap":[
             "components/"
-        ],
-        "files":[
-            "components/drawer/DrawerComponent.php"
         ]
     }
 }

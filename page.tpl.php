@@ -18,7 +18,7 @@ use function Session\get_current_user;
     <?php 
     
 
-    component("drawer", array("secondary_links" => $secondary_links));
+    component("drawer", "sidebar", array("secondary_links" => $secondary_links));
 
     ?>
     

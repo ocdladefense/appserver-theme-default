@@ -16,7 +16,6 @@ use function Session\get_current_user;
     <!-- This is where the drawer menu items will go -->
 
     <?php 
-    
 
     component("drawer", "sidebar", array("secondary_links" => $secondary_links));
 

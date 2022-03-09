@@ -1,5 +1,5 @@
 #container {
-	text-align:center;
+	/* text-align:center;*/
 	padding-top: 85px;
 }
 
@@ -47,6 +47,8 @@ footer .container {
     color: hsl(300,0%,47%);
 	min-height: 100vh;
 }
+
+
 
 #stage.home {
 	max-width:78%;
@@ -156,6 +158,11 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
+
+	#stage {
+		width: 80%;
+	}
+
 	body:not(".is-home") #container-left {
 		display: inline-block;
 		width: 25%;

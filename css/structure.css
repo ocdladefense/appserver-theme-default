@@ -1,5 +1,18 @@
+#logo {
+	display:inline-block;
+	margin-bottom:13px;
+	width: 59%;
+}
+
+
+#logo img {
+	vertical-align: middle;
+	max-width: 150px;
+}
+
+
 #container {
-	text-align:center;
+	/* text-align:center;*/
 	padding-top: 85px;
 }
 
@@ -19,22 +32,6 @@
 	display:none;
 }
 
-#footer {
-	display: none;
-	background-color: #232f3e;
-	padding: 8px;
-	font-family: "Helvetica Neuve",Helvetica;
-}
-
-footer {
-    background-color: hsla(48, 55%, 46%, 1.0);
-    color: hsla(48, 38%, 89%, 1.0);
-    min-height: 50vh;
-}
-
-footer .container {
-    padding: 25px;
-}
 
 #btnAdd {
 	max-width: 10vh;
@@ -43,23 +40,17 @@ footer .container {
 
 #stage-content {
     text-align: left;
-    padding: 25px;
     color: hsl(300,0%,47%);
 	min-height: 100vh;
 }
+
+
 
 #stage.home {
 	max-width:78%;
 }
 
-#footer {
-	z-index:10;
-	position:fixed;
-	bottom:0px;
-	left:0px;
-	height: 100px;
-	width:100%;
-}
+
 
 #installBanner {
 	margin-top: 50px;
@@ -99,22 +90,7 @@ body {
 	display: inline-block;
 }
 
-#logo {
-	display:inline-block;
-	margin-bottom:13px;
-	width: 59%;
-}
 
-@media screen and (min-width:800px) {
-	#logo {
-		width: 80%;
-	}
-}
-
-#logo img {
-	vertical-align: middle;
-	max-width: 150px;
-}
 
 #user-icon {
 
@@ -129,18 +105,35 @@ body {
 }
 
 #stage {
-	display: block;
+	padding: 20px;
 	position: relative;
 	margin: 0 auto;
+	width: 99%;
+	font-family: "Helvetica Neuve",Helvetica;
+	background-color: rgba(253,253,253,1.0);
+	font-size: 15.5px;
+	line-height: 24px;
+	color: rgba(0,0,0,0.7);
+	display: inline-block;
 }
 
-@media screen and(min-width:800px) {
-	#stage {
-		width: 90%;
+
+
+@media screen and (min-width:800px) {
+	#logo {
+		width: 80%;
 	}
+
 }
+
 
 @media screen and (min-width: 1024px) {
+
+
+	#stage-content {
+		width: 80%;
+	}
+
 	body:not(".is-home") #container-left {
 		display: inline-block;
 		width: 25%;
@@ -152,15 +145,7 @@ body {
 		margin-right: 1%;
 	}
 
-	#stage {
-		width: 99%;
-		font-family: "Helvetica Neuve",Helvetica;
-		background-color: #fff;
-		font-size: 15.5px;
-		line-height: 24px;
-		color: rgba(0,0,0,0.7);
-		display: inline-block;
-	}
+
 	
 	.column {
 		min-height: 200px;
@@ -177,3 +162,29 @@ body {
 
 
 
+
+#footer {
+	display: none;
+	background-color: #232f3e;
+	padding: 8px;
+	font-family: "Helvetica Neuve",Helvetica;
+}
+
+footer {
+    background-color: hsla(48, 55%, 46%, 1.0);
+    color: hsla(48, 38%, 89%, 1.0);
+    min-height: 50vh;
+}
+
+footer .container {
+    padding: 25px;
+}
+
+#footer {
+	z-index:10;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	height: 100px;
+	width:100%;
+}

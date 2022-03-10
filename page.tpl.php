@@ -1,11 +1,9 @@
 <?php
 
-use function Session\get_current_user;
-
 // This is the template for the default theme which happens to be for OCDLA.....
 
 
- $user = get_current_user();
+ $user = current_user();
  $loginMessage = !$user->is_logged_in() ? "Logged in as Guest" : "Hello {$user->getFirstName()}";
  $profileUrl = !$user->is_logged_in() ? "#" : "/user/profile";
 ?>

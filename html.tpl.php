@@ -15,8 +15,7 @@ use function Session\get_current_user;
 <head>
     <meta charset="utf-8" />
 
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -31,8 +30,10 @@ use function Session\get_current_user;
     <meta name="theme-color" content="#c4a12e" />
     <link type="text/css" href="/pwa-install.css" rel="stylesheet" />
 
-    <script src="https://kit.fontawesome.com/c2278a45b9.js" crossorigin="anonymous"></script>
-    <script src="/pwa-homescreen.js"></script>
+    <script src="https://kit.fontawesome.com/c2278a45b9.js" crossorigin="anonymous">
+    </script>
+    <script src="/pwa-homescreen.js">
+    </script>
 
 
 

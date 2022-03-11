@@ -134,7 +134,13 @@
 
         <div id="modal-backdrop">
             <div id="modal">
-                <div id="modal-content"></div>
+                <div id="modal-content">
+
+                
+                </div>
+                <div id="loading">
+                    <div id="loading-wheel"></div>
+                </div>
             </div>
         </div>
 
@@ -149,7 +155,7 @@
 
     <footer>
         <div class="container">
-            &copy;&nbsp;Oregon Criminal Defense Lawyers Associaton 2022
+            &copy;&nbsp;2022 Oregon Criminal Defense Lawyers Associaton
         </div>
     </footer>
 

@@ -5,17 +5,17 @@ class DefaultTheme extends Theme {
 
 
 	
-
-
-
-	
 	public function __construct() {
 		parent::__construct("default");
 		
 		// $this->addScripts($this->getThemeScripts());
+		$this->addStyles($this->getLibraryStyles());
 		$this->addStyles($this->getThemeStyles());
+
+		$this->addScripts($this->getLibraryScripts());
 		$this->addScripts($this->getThemeScripts());
 	}
+
 
 
 	public function addContent($content = '') {
@@ -24,9 +24,32 @@ class DefaultTheme extends Theme {
 
 
 
+	private function getLibraryStyles() {
+		
+		
+		$styles = array(
+			array(
+				"active" => true,
+				"href" => $path . "/content/libraries/modal/modal.css?bust=001"
+			),
+			array(
+				"active" => true,
+				"href" => $path . "/content/libraries/modal/loading.css?bust=001"
+			)
+		);
+
+		return $styles;
+	}
 
 
+	private function getLibraryScripts() {
 
+		$modal = array(
+			"src" => "/content/libraries/modal/modal.js"
+		);
+
+		return array($modal);
+	}
 
 
 
@@ -63,10 +86,6 @@ class DefaultTheme extends Theme {
 			array(
 				"active" => true,
 				"href" => $path . "/css/main-menu.css?bust=001"
-			),
-			array(
-				"active" => true,
-				"href" => $path . "/css/modal.css?bust=001"
 			),
 			array(
 				"active" => true,
@@ -113,15 +132,7 @@ class DefaultTheme extends Theme {
 				"src" => "/content/libraries/jquery/jquery-1.11.0-min.js"
 			),
 			
-			array(
-				"src" => "/content/libraries/react/react-16.12.0-development.js"
-			),
-			array(
-				"src" => "/content/libraries/react/react-16.12.0-dom-development.js"
-			),
-			array(
-				"src" => "/content/libraries/react/babel-6.26.0-standalone.js"
-			),
+
 			array(
 				"src" => "/content/libraries/core/Callout.js"
 			),
@@ -130,12 +141,6 @@ class DefaultTheme extends Theme {
 			),
 			array(
 				"src" => "/content/libraries/core/SiteLibraries.js"
-			),
-			array (
-				"src" => "/content/libraries/view/view.js"
-			),
-			array(
-				"src" => "/content/libraries/view/modal.js"
 			)
 			
 			// $module_path = "/modules/webconsole";
@@ -150,6 +155,22 @@ class DefaultTheme extends Theme {
 				"$module_path/assets/lib/http/HttpCache.js"
 			);*/
 		);
+	}
+
+
+
+	private function getDeprecated() {
+		/*
+		array(
+			"src" => "/content/libraries/react/react-16.12.0-development.js"
+		),
+		array(
+			"src" => "/content/libraries/react/react-16.12.0-dom-development.js"
+		),
+		array(
+			"src" => "/content/libraries/react/babel-6.26.0-standalone.js"
+		)
+		*/
 	}
 	
 }

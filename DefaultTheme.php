@@ -133,6 +133,14 @@ class DefaultTheme extends Theme {
 			),
 			
 
+			// LOAD HTTP RELATED FUNCTIONALITY.
+			array(
+				"src" => "/content/libraries/http/HttpServer2.js"
+			),
+			array(
+				"src" => "/content/libraries/http/Route.js"
+			),
+
 			array(
 				"src" => "/content/libraries/core/Callout.js"
 			),
@@ -142,6 +150,7 @@ class DefaultTheme extends Theme {
 			array(
 				"src" => "/content/libraries/core/SiteLibraries.js"
 			)
+
 			
 			// $module_path = "/modules/webconsole";
 			/*

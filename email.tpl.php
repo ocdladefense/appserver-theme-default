@@ -55,14 +55,14 @@ Content-Transfer-Encoding: quoted-printable
     
     
                         <tr>
-                            <td style="font-size:12px;">
+                            <td>
                                 <div style="text-align:center;">
                                     <div class="content" style="width:100%;margin:0 auto;text-align:left;font-size:14pt;">
                                         <h2 style="font-family:Verdana;font-size:18pt;color:#4f4f3f;margin-top:40px;text-align:center;">
                                             <?php print $title; ?>
                                         </h2>
   
-                                        <p style="font-size:9pt;"><?php print $content; ?></p>
+                                        <p><?php print $content; ?></p>
                                     </div>
                                 </div>
                             </td>

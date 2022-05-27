@@ -22,7 +22,7 @@
     <meta name="format-detection" content="telephone=no" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/pwa-icons-180.png" type="image/png" />
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="manifest" href="/manifest" />
     <link rel="icons" type="image/png" sizes="192x192" href="/pwa-icons-192.png" />
     <link rel="apple-touch-startup-image" href="/apple-launch-750x1334.png" />
     <meta name="theme-color" content="#c4a12e" />

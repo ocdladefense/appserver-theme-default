@@ -98,6 +98,10 @@ class DefaultTheme extends Theme {
 			array(
 				"active" => true,
 				"href" => $path . "/css/drawer.css?bust=001"
+			),
+			array(
+				"active" => true,
+				"href" => $path . "/css/colors.css?bust=001"
 			)
 		);
 	
@@ -135,7 +139,7 @@ class DefaultTheme extends Theme {
 
 			// LOAD HTTP RELATED FUNCTIONALITY.
 			array(
-				"src" => "/content/libraries/http/HttpServer2.js"
+				"src" => "/content/libraries/http/HttpServer.js"
 			),
 			array(
 				"src" => "/content/libraries/http/Route.js"

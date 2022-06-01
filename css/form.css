@@ -13,6 +13,11 @@
 }
 
 
+.form-group .form-item {
+    display: inline-block;
+}
+
+
 
 
 .form-item label {
@@ -33,6 +38,7 @@ input, select, button {
     border-radius: 3px;
     border: 1px solid #ccc;
     width:100%;
+    vertical-align: middle;
 }
 
 input[type="checkbox"] {
@@ -73,4 +79,39 @@ label {
 
 .form-item-link label {
     display:block;
+}
+
+
+
+/*
+#record-search .form-item {
+    display: inline-block;
+}
+
+
+
+
+#record-search input,
+#record-search select,
+#record-search button {
+    height:30px;
+    vertical-align: middle;
+}
+
+
+#record-search button,
+#record-search input[type="submit"],
+#record-search input[type="reset"] {
+    padding-left:11px;
+    padding-right:11px;
+}
+*/
+
+
+/** 
+ When the summarize is checked then highlight the button.
+ 
+*/
+button#summarize[value="1"] {
+    background-color: darkgray;
 }

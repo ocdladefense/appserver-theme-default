@@ -15,7 +15,7 @@
 
     <?php 
 
-    component("drawer", "sidebar", array("secondary_links" => $secondary_links));
+        component("drawer", "sidebar", array("secondary_links" => $secondary_links));
 
     ?>
     
@@ -41,7 +41,7 @@
 
                     <div id="search-form">
 
-                        <form class="devsite-search-form" action="https://developers.google.com/s/results" method="GET">
+                        <form class="devsite-search-form" action="https://developers.google.com/s/results" method="get">
 
                             <div class="devsite-search-container">
                                 <div class="devsite-searchbox">
@@ -121,14 +121,6 @@
             </div>
             <!--end container-->
 
-            <div id="footer">
-
-                <div class="content">
-                    <span style="font-size:smaller;">&copy;&nbsp;2020 OCDLA</span>
-                </div><!--end content-->
-
-            </div> <!--end footer-->
-
         </div> <!--end page -->
 
 
@@ -152,13 +144,13 @@
 
     </div>
 
-
+    
     <footer>
         <div class="container">
             &copy;&nbsp;2022 Oregon Criminal Defense Lawyers Associaton
         </div>
     </footer>
-
+                        
 </body>
 
 

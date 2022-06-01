@@ -93,6 +93,10 @@ class DefaultTheme extends Theme {
 			),
 			array(
 				"active" => true,
+				"href" => $path . "/css/form.css?bust=001"
+			),
+			array(
+				"active" => true,
 				"href" => $path . "/css/style.css?bust=001"
 			),
 			array(

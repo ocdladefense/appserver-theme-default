@@ -1,0 +1,76 @@
+
+
+.form-group {
+    display:block;
+}
+
+.form-item {
+    display:block;
+    margin-left: 0px;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+
+
+.form-item label {
+    display:block;
+    text-transform: capitalize;
+}
+
+
+.page-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input, select, button {
+    min-height: 30px;
+    vertical-align: middle;
+    padding: 11px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width:100%;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+
+@media only screen and (min-width:800px) {
+
+    .form-group .form-item {
+        display: inline-block;
+    }
+
+
+    input, select, button {
+        width:auto;
+    }
+}
+
+textarea {
+    padding:11px;
+    overflow:scroll;
+    max-width:100%;
+}
+
+button, input[type="submit"], input[type="reset"] {
+    padding-left:11px;
+    padding-right:11px;
+}
+
+label {
+    text-transform: lowercase;
+    font-size: smaller;
+    font-weight: bold;
+    color: #999;
+    display:block;
+}
+
+.form-item-link label {
+    display:block;
+}

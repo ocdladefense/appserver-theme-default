@@ -1,3 +1,19 @@
+body {
+	margin:0;
+    font-family: Roboto, system-ui, sans-serif;
+    font-size: 81.25%;
+	background-color: rgba(191,161,46,1.0);
+	color: rgba(255,255,255,1.0);
+	line-height:18px;
+}
+
+#page {
+	min-height: 100vh;
+	background-color: rgba(215,225,225,0.25);
+	color:#000;
+}
+
+
 #logo {
 	display:inline-block;
 	margin-bottom:13px;
@@ -12,13 +28,14 @@
 
 
 #container {
-	/* text-align:center;*/
 	padding-top: 85px;
 }
+
 
 .container-content {
 	background-color: inherit;
 }
+
 
 .column {
 	overflow-y:hidden;
@@ -33,11 +50,6 @@
 }
 
 
-#btnAdd {
-	max-width: 10vh;
-	cursor: pointer;
-}
-
 #stage-content {
     text-align: left;
     color: hsl(300,0%,47%);
@@ -46,30 +58,11 @@
 
 
 
-#stage.home {
-	max-width:78%;
-}
-
-
-
-#installBanner {
-	margin-top: 50px;
-}
-
-body {
-	margin:0 !important;
-}
-
-#page {
-	min-height: 100vh;
-	background-color: rgba(215,225,225,0.25);
-	color:#000;
-}
-
 #banner {
 	display:none;
 	height:60%;
 }
+
 
 #header {
 	z-index:10;
@@ -86,23 +79,7 @@ body {
 	padding-right:3%;
 }
 
-#float-right {
-	display: inline-block;
-}
 
-
-
-#user-icon {
-
-}
-
-#user-widget {
-	vertical-align: middle;
-}
-
-#search-form {
-	display:none;
-}
 
 #stage {
 	padding: 20px;
@@ -111,8 +88,6 @@ body {
 	width: 99%;
 	font-family: "Helvetica Neuve",Helvetica;
 	background-color: rgba(253,253,253,1.0);
-	font-size: 15.5px;
-	line-height: 24px;
 	color: rgba(0,0,0,0.7);
 	display: inline-block;
 }
@@ -123,7 +98,6 @@ body {
 	#logo {
 		width: 80%;
 	}
-
 }
 
 
@@ -163,12 +137,26 @@ body {
 
 
 
-#footer {
+
+
+
+#alternate-footer {
+	z-index:10;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	height: 100px;
+	width:100%;
+}
+
+
+#alternate-footer {
 	display: none;
 	background-color: #232f3e;
 	padding: 8px;
 	font-family: "Helvetica Neuve",Helvetica;
 }
+
 
 footer {
     background-color: hsla(48, 55%, 46%, 1.0);
@@ -178,13 +166,4 @@ footer {
 
 footer .container {
     padding: 25px;
-}
-
-#footer {
-	z-index:10;
-	position:fixed;
-	bottom:0px;
-	left:0px;
-	height: 100px;
-	width:100%;
 }

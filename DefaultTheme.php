@@ -77,6 +77,10 @@ class DefaultTheme extends Theme {
 			),
 			array(
 				"active" => true,
+				"href" => $path . "/css/headings.css?bust=001"
+			),
+			array(
+				"active" => true,
 				"href" => $path . "/css/ux.css?bust=001"
 			),
 			array(
@@ -106,6 +110,10 @@ class DefaultTheme extends Theme {
 			array(
 				"active" => true,
 				"href" => $path . "/css/colors.css?bust=001"
+			),
+			array(
+				"active" => true,
+				"href" => $path . "/css/widgets.css?bust=001"
 			)
 		);
 	

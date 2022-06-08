@@ -103,7 +103,10 @@
 
                 <div class="container-content">
                             
-                    <div id="container-left" class="column column-left"></div>
+                    <div id="container-left" class="column column-left">
+
+                        <span data-text="Thanks for hovering! I'm a tooltip" class="tooltip">Hover over me!</span>
+                    </div>
 
 
                     <div id="stage" class="column column-middle">
@@ -114,6 +117,12 @@
 
                         </div>
 
+                    </div>
+
+
+                    <div id="container-right" class="column column-right">
+
+                            Context UI
                     </div>
 
                 </div> <!-- end container-content -->

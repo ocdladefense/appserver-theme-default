@@ -1,0 +1,51 @@
+
+/**
+graftak 10 months ago | parent | context | favorite | on: MacType: Better Font Rendering for Windows
+
+You were likely looking for 81.25% which—with the universally accepted default browser font-size of 16px—equates to a whole 13px (16 * 0,8125).
+
+	
+graftak 10 months ago | parent [–]
+
+I’m not exactly sure either but that is around the time I got started with css and I can still recall a lot of these 16px conversion ratios[1], they must have hade some significance.
+Edit: now that I’m thinking about it, I (used to) use Spotlight for the conversions which was introduced in Mac OS X 10.4, released in 2005.
+
+[1] 62.5% for 10px, 87.5% for 14px, etc.
+*/
+
+@media screen and (max-width: 800px) {
+	.col {
+		display:block;
+		width:auto;
+		margin-bottom:10px;
+	}
+}
+
+
+
+
+@media screen and (min-width:800px) {
+	#logo {
+		width: 80%;
+	}
+}
+
+
+@media screen and (min-width: 1024px) {
+
+	#container-left {
+		display:none;
+		width: 20%;
+		margin-right: 1%;
+	}
+
+
+	
+	.column {
+		min-height: 200px;
+	}
+	
+	footer {
+		min-height: 200px;
+	}
+}

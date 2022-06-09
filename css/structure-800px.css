@@ -31,6 +31,7 @@ Edit: now that I’m thinking about it, I (used to) use Spotlight for the conver
 .container-content {
 	display: inline-flex;
 	background-color: #fff;
+	width: 100%;
 }
 .column {
 	display: inline-block;
@@ -48,7 +49,7 @@ Edit: now that I’m thinking about it, I (used to) use Spotlight for the conver
 }
 
 #container-left {
-	width: 5%;
+	width: 10%;
 }
 
 #container-right {
@@ -74,4 +75,49 @@ footer {
 
 #logo {
 	width: 80%;
+}
+
+
+
+
+
+#desktop-icons li {
+	list-style-type: none;
+
+	display: inline-block;
+}
+
+#desktop-icons li:hover {
+	cursor: pointer;
+}
+
+ 
+
+#desktop-icons a.active,
+#desktop-icons a:hover {
+	background-color: #eee;
+	border: 1px solid #eee;
+}
+
+#desktop-icons li a {
+    display: block;
+    height: 100%;
+    color: #54558b !important;
+    text-decoration: none;
+	font-size: 9px;
+	width:100%;
+	height:100%;
+	padding:13px;
+	padding-top:15px;
+	padding-bottom:15px;
+	border-radius: 2px;
+	border: 1px solid #fff;
+	
+}
+
+
+#desktop-icons a,
+#desktop-icons a:link,
+#desktop-icons a:visited {
+
 }

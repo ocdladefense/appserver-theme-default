@@ -105,7 +105,7 @@
                             
                     <div id="container-left" class="column column-left">
 
-                        <span data-text="Thanks for hovering! I'm a tooltip" class="tooltip">Hover over me!</span>
+                            <?php include "desktop-links.tpl.php"; ?>
                     </div>
 
 
@@ -122,7 +122,7 @@
 
                     <div id="container-right" class="column column-right">
 
-                            Context UI
+                            <!-- Context UI-->
                     </div>
 
                 </div> <!-- end container-content -->

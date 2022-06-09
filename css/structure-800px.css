@@ -1,0 +1,123 @@
+
+/**
+graftak 10 months ago | parent | context | favorite | on: MacType: Better Font Rendering for Windows
+
+You were likely looking for 81.25% which—with the universally accepted default browser font-size of 16px—equates to a whole 13px (16 * 0,8125).
+
+	
+graftak 10 months ago | parent [–]
+
+I’m not exactly sure either but that is around the time I got started with css and I can still recall a lot of these 16px conversion ratios[1], they must have hade some significance.
+Edit: now that I’m thinking about it, I (used to) use Spotlight for the conversions which was introduced in Mac OS X 10.4, released in 2005.
+
+[1] 62.5% for 10px, 87.5% for 14px, etc.
+*/
+
+
+	.col {
+		display:inline-block;
+		width:auto;
+		margin-bottom:10px;
+		vertical-align:top;
+		width:32%;
+	}
+
+
+#main {
+	padding-left:2%;
+	padding-right:2%;
+}
+
+.container-content {
+	display: inline-flex;
+	background-color: #fff;
+	width: 100%;
+}
+.column {
+	display: inline-block;
+	vertical-align: top;
+	min-height: 100%;
+	overflow-y: auto;
+	text-align:left;
+	padding: 20px;
+}
+
+#container-left, #container-right {
+	display: inline-block;
+	background-color: #fff;
+	min-height: 100%;
+}
+
+#container-left {
+	width: 10%;
+}
+
+#container-right {
+	width: 20%;
+}
+
+
+
+
+
+#stage {
+	width: 72%;
+}
+
+
+
+
+
+
+footer {
+	min-height: 200px;
+}
+
+#logo {
+	width: 80%;
+}
+
+
+
+
+
+#desktop-icons li {
+	list-style-type: none;
+
+	display: inline-block;
+}
+
+#desktop-icons li:hover {
+	cursor: pointer;
+}
+
+ 
+
+#desktop-icons a.active,
+#desktop-icons a:hover {
+	background-color: #eee;
+	border: 1px solid #eee;
+}
+
+#desktop-icons li a {
+    display: block;
+    height: 100%;
+    color: #54558b !important;
+    text-decoration: none;
+	font-size: 9px;
+	width:100%;
+	height:100%;
+	padding:13px;
+	padding-top:15px;
+	padding-bottom:15px;
+	border-radius: 2px;
+	border: 1px solid #fff;
+	
+}
+
+
+#desktop-icons a,
+#desktop-icons a:link,
+#desktop-icons a:visited {
+
+}

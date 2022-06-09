@@ -45,4 +45,9 @@
 
     <?php print $content; ?>
 
+    <script type="text/javascript">
+        $(function() {
+            $('#desktop-icons a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+        });
+    </script>
 </html>

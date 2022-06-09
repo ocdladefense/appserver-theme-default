@@ -1,3 +1,18 @@
+
+/**
+graftak 10 months ago | parent | context | favorite | on: MacType: Better Font Rendering for Windows
+
+You were likely looking for 81.25% which—with the universally accepted default browser font-size of 16px—equates to a whole 13px (16 * 0,8125).
+
+	
+graftak 10 months ago | parent [–]
+
+I’m not exactly sure either but that is around the time I got started with css and I can still recall a lot of these 16px conversion ratios[1], they must have hade some significance.
+Edit: now that I’m thinking about it, I (used to) use Spotlight for the conversions which was introduced in Mac OS X 10.4, released in 2005.
+
+[1] 62.5% for 10px, 87.5% for 14px, etc.
+*/
+
 body {
 	margin:0;
     font-family: Roboto, system-ui, sans-serif;
@@ -7,7 +22,7 @@ body {
 	line-height:18px;
 }
 
-#page {
+#main {
 	min-height: 100vh;
 	background-color: rgba(215,225,225,0.25);
 	color:#000;
@@ -38,14 +53,11 @@ body {
 
 
 .column {
-	overflow-y:hidden;
 	display: inline-block;
 	background-color: #fff;
 }
 
-#container-left {
-	overflow-y: auto;
-	text-align:left;
+#container-left, #container-right {
 	display:none;
 }
 
@@ -94,52 +106,6 @@ body {
 
 
 
-@media screen and (min-width:800px) {
-	#logo {
-		width: 80%;
-	}
-}
-
-
-@media screen and (min-width: 1024px) {
-
-
-	#stage-content {
-		width: 80%;
-	}
-
-	body:not(".is-home") #container-left {
-		display: inline-block;
-		width: 25%;
-	}
-
-	#container-left {
-		display:none;
-		width: 20%;
-		margin-right: 1%;
-	}
-
-
-	
-	.column {
-		min-height: 200px;
-	}
-	
-	footer {
-		min-height: 200px;
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
 #alternate-footer {
 	z-index:10;
 	position:fixed;
@@ -162,8 +128,86 @@ footer {
     background-color: hsla(48, 55%, 46%, 1.0);
     color: hsla(48, 38%, 89%, 1.0);
     min-height: 50vh;
+	-webkit-font-smoothing: antialiased;
 }
 
 footer .container {
     padding: 25px;
+	font-size: 0.6rem;
 }
+
+.banner {
+	width:100%;
+	margin-bottom: 35px;
+	font-size:0.65rem;
+}
+
+
+footer a, footer a:link, footer a:visited {
+	color: hsla(48, 38%, 89%, 1.0);
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+footer #legal {
+	background-color: #ccc;
+	color: #666;
+	padding:20px;
+	padding-top:40px;
+	padding-bottom: 40px;
+}
+
+.col {
+	display: block;
+}
+
+.col ul li.label {
+	font-weight:bold;
+}
+
+.col li {
+	 list-style-type: none;   
+	 padding:0.2rem;
+}
+
+
+.tooltip {
+	position:relative; /* making the .tooltip span a container for the tooltip text */
+	border-bottom:1px dashed #000; /* little indicater to indicate it's hoverable */
+}
+
+
+
+.tooltip:before {
+	content: attr(data-text); /* here's the magic */
+	position:absolute;
+	
+	/* vertically center */
+	top:50%;
+	transform:translateY(-50%);
+	
+	/* move to right */
+	left:100%;
+	margin-left:15px; /* and add a small left margin */
+	
+	/* basic styles */
+	width:200px;
+	padding:10px;
+	border-radius:10px;
+	background:#000;
+	color: #fff;
+	text-align:center;
+
+	font-size:10px;
+  
+	display:none; /* hide by default */
+}
+
+
+.tooltip:hover:before {
+	display:block;
+	cursor: pointer;
+}
+

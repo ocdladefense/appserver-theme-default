@@ -28,8 +28,8 @@ Content-Transfer-Encoding: quoted-printable
                         <tr>
                             <td>
                                 <div style="margin:0px;padding:0px;">
-                                    <img alt="Oregon Criminal Defense Lawyers Association Logo" src="https://ocdla.app/content/images/logo.png" style="border:0px solid #eee;" />
-                                    <div style="text-align:center;">
+                                    <!-- <img alt="Oregon Criminal Defense Lawyers Association Logo" width="225" src="https://ocdla.app/content/images/logo.png" style="border:0px solid #eee;" /> -->
+                                    <!--<div style="text-align:center;">
                                         <ul style="margin:0 auto;padding:0px;margin:0px;font-family:Verdana;background-color:#53638c;color:#fff;font-size:14pt;line-height:68px;width:100%;height:75px;">
                                             <li style="display:inline-block;padding:5px;color:#fff;">
                                                 <a style="text-decoration:none;color:inherit;" href="https://www.ocdla.org">OCDLA Home</a>
@@ -47,18 +47,18 @@ Content-Transfer-Encoding: quoted-printable
                                                 <a style="text-decoration:none;color:inherit;" href="https://lod.ocdla.org">Library of Defense</a>
                                             </li>
                                         </ul>
-                                    </div><!-- end menu -->
-                                </div><!-- end header -->
+                                    </div>-->
+                                </div>
                             </td>
                         </tr>
-    
+
     
     
                         <tr>
                             <td>
                                 <div style="text-align:center;">
                                     <div class="content" style="width:100%;margin:0 auto;text-align:left;font-size:14pt;">
-                                        <h2 style="font-family:Verdana;font-size:18pt;color:#4f4f3f;margin-top:40px;text-align:center;">
+                                        <h2 style="font-family:Verdana;font-size:18pt;color:#4f4f3f;margin-top:20px;text-align:left;">
                                             <?php print $title; ?>
                                         </h2>
   
@@ -70,9 +70,56 @@ Content-Transfer-Encoding: quoted-printable
     
                         <tr>
                             <td>
+                                <div style="margin:0px;padding:0px;">
+                                    <!-- <img alt="Oregon Criminal Defense Lawyers Association Logo" width="225" src="https://ocdla.app/content/images/logo.png" style="border:0px solid #eee;" /> -->
+                                    <!-- <div style="text-align:center;">
+                                        <ul style="margin:0 auto;padding:0px;margin:0px;font-family:Verdana;background-color:#53638c;color:#fff;font-size:10px;line-height:29px;width:100%;height:40px;">
+                                            <li style="display:inline-block;padding:5px;color:#fff;">
+                                                <a style="text-decoration:none;color:inherit;" href="https://www.ocdla.org">OCDLA Home</a>
+                                            </li>
+                                            <li style="display:inline-block;padding:5px;color:#fff;">
+                                                <a style="text-decoration:none;color:inherit;" href="https://ocdla.force.com/OcdlaEvents">Events</a>
+                                            </li>
+                                            <li style="display:inline-block;padding:5px;color:#fff;">
+                                                <a style="text-decoration:none;color:inherit;" href="https://ocdla.force.com/Store">Store</a>
+                                            </li>
+                                            <li style="display:inline-block;padding:5px;color:#fff;">
+                                                <a style="text-decoration:none;color:inherit;" href="https://lod.ocdla.org/Public:Subscriptions">Books Online</a>
+                                            </li>
+                                            <li style="display:inline-block;padding:5px;color:#fff;">
+                                                <a style="text-decoration:none;color:inherit;" href="https://lod.ocdla.org">Library of Defense</a>
+                                            </li>
+                                        </ul>
+                                    </div>-->
+                                </div>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
                                 <div class="footer" style="padding:20px; padding-top:40px; background-color:#eee; color:#666; font-size:14px;font-style:italics;">
+                                    <ul style="padding-left:0px; margin-left:0px;">
+                                        <li style="display:inline-block;padding:5px;padding-left:0px;margin-left:0px;">
+                                            <a style="text-decoration:none;color:inherit;" href="https://www.ocdla.org">OCDLA Home</a>
+                                        </li>
+                                        <li style="display:inline-block;padding:5px;">
+                                            <a style="text-decoration:none;color:inherit;" href="https://ocdla.force.com/OcdlaEvents">Events</a>
+                                        </li>
+                                        <li style="display:inline-block;padding:5px;">
+                                            <a style="text-decoration:none;color:inherit;" href="https://ocdla.force.com/Store">Store</a>
+                                        </li>
+                                        <li style="display:inline-block;padding:5px;">
+                                            <a style="text-decoration:none;color:inherit;" href="https://lod.ocdla.org/Public:Subscriptions">Books Online</a>
+                                        </li>
+                                        <li style="display:inline-block;padding:5px;">
+                                            <a style="text-decoration:none;color:inherit;" href="https://lod.ocdla.org">Library of Defense</a>
+                                        </li>
+                                    </ul>
                                     <div style="display:block;font-size:18px;margin-bottom:20px;">
-                                        <a href="https://www.ocdla.org" style="color:inherit;text-decoration:none;font-weight:bold;">OCDLA</a>
+                                        <a href="https://www.ocdla.org" style="color:inherit;text-decoration:none;font-weight:bold;">
+                                            <img alt="Oregon Criminal Defense Lawyers Association Logo" width="180" src="https://ocdla.app/content/images/logo.png" style="border:0px solid #eee;" />
+                                        </a>
                                     </div>
                                     Oregon Criminal Defense Lawyers Association is a 501(c)(3) nonprofit educational association. Contributions to OCDLA may be tax deductible - check with your tax advisor.
                                     <p>Electronic downloads are for the sole use of the purchasing member. Files may not be distributed to others.</p>

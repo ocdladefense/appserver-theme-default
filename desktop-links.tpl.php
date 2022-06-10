@@ -1,5 +1,9 @@
 <?php
-
+/*
+define("APP_URL", "https://trust.ocdla.org");
+define("STORE_URL","https://ocdla.force.com");
+define("ORG_URL","https://www.ocdla.org");
+*/
 ?>
 <ul id="desktop-icons" class="sidebar-links">
     <li id="home" class="side-menu-item">
@@ -15,7 +19,7 @@
     </li>
 
     <li class="side-menu-item">
-        <a href="/events">
+        <a href="<?php print STORE_URL . "/OcdlaEvents"; ?>" target="_new">
             <i class="fas fa-calendar-day fa-2x" aria-hidden="true"></i>
         </a>
     </li>
@@ -39,7 +43,7 @@
     </li>
 
     <li class="side-menu-item">
-        <a href="/videos">
+        <a href="<?php print STORE_URL . "/Videos"; ?>" target="_new">
             <i class="fas fa-video fa-2x" aria-hidden="true"></i>
         </a>
     </li>

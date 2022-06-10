@@ -77,7 +77,7 @@ class DefaultTheme extends Theme {
 			),
 			array(
 				"active" => true,
-				"href" => $path . "/css/structure-800px.css?bust=002"
+				"href" => $path . "/css/structure-800px.css?bust=002",
 				"media" => "screen and (min-width: 800px)"
 			),
 			array(

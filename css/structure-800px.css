@@ -83,8 +83,9 @@ footer {
 
 #desktop-icons li {
 	list-style-type: none;
-
-	display: inline-block;
+    display: block;
+    text-align: center;
+    width: 55px;
 }
 
 #desktop-icons li:hover {

@@ -30,7 +30,7 @@
                 </div>
 
                 <div id="logo">
-                    <a href="//ocdla.app">
+                    <a href="<?php print APP_URL; ?>">
                         <img src="/content/images/logo.png" />
                     </a>
                 </div>

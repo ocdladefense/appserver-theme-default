@@ -101,24 +101,24 @@ Content-Transfer-Encoding: quoted-printable
                                 <div class="footer" style="padding:20px; padding-top:40px; background-color:#eee; color:#666; font-size:14px;font-style:italics;">
                                     <ul style="padding-left:0px; margin-left:0px;">
                                         <li style="display:inline-block;padding:5px;padding-left:0px;margin-left:0px;">
-                                            <a style="text-decoration:none;color:inherit;" href="https://www.ocdla.org">OCDLA Home</a>
+                                            <a style="text-decoration:none;color:inherit;" target="_new" href="<?php print ORG_URL; ?>">OCDLA Home</a>
                                         </li>
                                         <li style="display:inline-block;padding:5px;">
-                                            <a style="text-decoration:none;color:inherit;" href="https://ocdla.force.com/OcdlaEvents">Events</a>
+                                            <a style="text-decoration:none;color:inherit;" target="_new" href="<?php print STORE_URL; ?>/OcdlaEvents">Events</a>
                                         </li>
                                         <li style="display:inline-block;padding:5px;">
-                                            <a style="text-decoration:none;color:inherit;" href="https://ocdla.force.com/Store">Store</a>
+                                            <a style="text-decoration:none;color:inherit;" target="_new" href="<?php print STORE_URL; ?>/Store">Store</a>
                                         </li>
                                         <li style="display:inline-block;padding:5px;">
-                                            <a style="text-decoration:none;color:inherit;" href="https://lod.ocdla.org/Public:Subscriptions">Books Online</a>
+                                            <a style="text-decoration:none;color:inherit;" target="_new" href="<?php print LOD_URL; ?>/Public:Subscriptions">Books Online</a>
                                         </li>
                                         <li style="display:inline-block;padding:5px;">
-                                            <a style="text-decoration:none;color:inherit;" href="https://lod.ocdla.org">Library of Defense</a>
+                                            <a style="text-decoration:none;color:inherit;" href="<?php print LOD_URL; ?>">Library of Defense</a>
                                         </li>
                                     </ul>
                                     <div style="display:block;font-size:18px;margin-bottom:20px;">
-                                        <a href="https://www.ocdla.org" style="color:inherit;text-decoration:none;font-weight:bold;">
-                                            <img alt="Oregon Criminal Defense Lawyers Association Logo" width="180" src="https://ocdla.app/content/images/logo.png" style="border:0px solid #eee;" />
+                                        <a href="<?php print ORG_URL; ?>" target="_new" style="color:inherit;text-decoration:none;font-weight:bold;">
+                                            <img alt="Oregon Criminal Defense Lawyers Association Logo" width="180" src="<?php print APP_URL; ?>/content/images/logo.png" style="border:0px solid #eee;" />
                                         </a>
                                     </div>
                                     Oregon Criminal Defense Lawyers Association is a 501(c)(3) nonprofit educational association. Contributions to OCDLA may be tax deductible - check with your tax advisor.

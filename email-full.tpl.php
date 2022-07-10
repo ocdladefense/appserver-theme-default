@@ -28,7 +28,7 @@ Content-Transfer-Encoding: quoted-printable
                         <tr>
                             <td>
                                 <div style="margin:0px;padding:0px;">
-                                    <img alt="Oregon Criminal Defense Lawyers Association Logo" src="https://ocdla.app/content/images/logo.png" style="border:0px solid #eee;" />
+                                    <img alt="Oregon Criminal Defense Lawyers Association Logo" src="<?php print APP_URL; ?>/content/images/logo.png" style="border:0px solid #eee;" />
                                     <div style="text-align:center;">
                                         <ul style="margin:0 auto;padding:0px;margin:0px;font-family:Verdana;background-color:#53638c;color:#fff;font-size:14pt;line-height:68px;width:100%;height:75px;">
                                             <li style="display:inline-block;padding:5px;color:#fff;">

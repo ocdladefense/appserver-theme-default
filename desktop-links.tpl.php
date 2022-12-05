@@ -37,12 +37,6 @@ define("ORG_URL","https://www.ocdla.org");
     </li>
 
     <li class="side-menu-item">
-        <a href="/maps">
-            <i class="fas fa-map-pin fa-2x" aria-hidden="true"></i>
-        </a>
-    </li>
-
-    <li class="side-menu-item">
         <a href="<?php print STORE_URL . "/Videos"; ?>" target="_new">
             <i class="fas fa-video fa-2x" aria-hidden="true"></i>
         </a>

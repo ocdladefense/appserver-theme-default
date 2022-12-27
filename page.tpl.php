@@ -13,7 +13,7 @@
 <body style="background-color: rgba(191,161,46,1.0); color: rgba(255,255,255,1.0);">
     
     <!-- This is where the drawer menu items will go -->
-
+    
     <?php 
 
         component("drawer", "sidebar", array("secondary_links" => $secondary_links));

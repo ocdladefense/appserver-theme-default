@@ -18,6 +18,26 @@ define("ORG_URL","https://www.ocdla.org");
         </a>
     </li>
 
+    <li id="library-of-defense" class="side-menu-item">
+        <a target="_new" href="https://lod.ocdla.org">
+            <i class="fa-solid fa-scale-balanced fa-2x" aria-hidden="true"></i>
+        </a>
+    </li>
+
+    <li id="ocdla-org" class="side-menu-item">
+        <a target="_new" href="https://www.ocdla.org">
+            <i class="fa-solid fa-building fa-2x" aria-hidden="true"></i>
+        </a>
+    </li>
+
+    <li id="legal-resource-library" class="side-menu-item">
+        <a href="/legal-resource-library">
+            <i class="fa-solid fa-book-bookmark fa-2x" aria-hidden="true"></i>
+        </a>
+    </li>
+
+    
+
     <li class="side-menu-item">
         <a href="<?php print STORE_URL . "/OcdlaEvents"; ?>" target="_new">
             <i class="fas fa-calendar-day fa-2x" aria-hidden="true"></i>

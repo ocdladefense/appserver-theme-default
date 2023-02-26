@@ -49,7 +49,11 @@ Edit: now that I’m thinking about it, I (used to) use Spotlight for the conver
 }
 
 #container-left {
-	width: 10%;
+    width: 10%;
+    /* float: left; */
+    /* display: block; */
+    /* z-index: 1000; */
+    overflow: visible;
 }
 
 #container-right {

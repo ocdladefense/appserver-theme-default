@@ -119,6 +119,10 @@ class DefaultTheme extends Theme {
 			array(
 				"active" => true,
 				"href" => $path . "/css/widgets.css?bust=002"
+			),
+			array(
+				"active" => true,
+				"href" => $path . "/css/tooltip.css?bust=002"
 			)
 		);
 	

@@ -6,7 +6,8 @@
  $user = current_user();
  
  $loginMessage = !$user->is_logged_in() ? "Logged in as Guest" : "Hello {$user->getFirstName()}";
- $profileUrl = !$user->is_logged_in() ? "#" : "/user/profile";
+ // $profileUrl = !$user->is_logged_in() ? "#" : "/user/profile";
+ $profileUrl = STORE_URL . "/AccountManager";
 ?>
 
 

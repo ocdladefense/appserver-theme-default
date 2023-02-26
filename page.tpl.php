@@ -159,7 +159,7 @@
     
     <footer>
         <div class="container">
-            <div class="banner">&copy;&nbsp;2022 Oregon Criminal Defense Lawyers Associaton</div>
+            <div class="banner">&copy;&nbsp;2023 Oregon Criminal Defense Lawyers Associaton</div>
             <div class="col">
                 <ul>
                     <li class="label">Services</li>

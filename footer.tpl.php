@@ -4,7 +4,7 @@
             <div class="col">
                 <ul>
                     <li class="label">Services</li>
-                    <li><a href="/directory/members">Membership Directory</a></li>
+                    <li><a href="/directory">Membership Directory</a></li>
                     <li><a href="/directory/experts">Expert Directory</a></li>
                     <li>Online store</li>
                 </ul>
@@ -22,7 +22,7 @@
                     <li class="label">Resources</li>
                     <li>CLEs</li>
                     <li>Videos</li>
-                    <li>Seminars & Events</li>
+                    <li>Seminars &amp; Events</li>
                 </ul>
             </div>
         </div>

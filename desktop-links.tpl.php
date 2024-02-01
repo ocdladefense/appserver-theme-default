@@ -111,7 +111,7 @@ http://www.menucool.com/tooltip/css-tooltip
     </li>
 
     <li id="member" class="side-menu-item tooltip">
-        <a href="/directory/members">
+        <a href="/directory">
             <i class="fa-solid fa-people-group fa-2x"></i>
         </a>
         <div class="right">
@@ -126,7 +126,7 @@ http://www.menucool.com/tooltip/css-tooltip
             <i class="fa-solid fa-person-chalkboard fa-2x"></i>
         </a>
         <div class="right">
-            <h3>Expert Witness Diretory</h3>
+            <h3>Expert Witness Directory</h3>
             <!-- <p>LOD Description here</p> -->
             <i></i>
         </div>

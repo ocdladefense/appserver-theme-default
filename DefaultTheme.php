@@ -73,52 +73,56 @@ class DefaultTheme extends Theme {
 			),
 			array(
 				"active" => true,
-				"href" => $path . "/css/structure.css?bust=002"
+				"href" => $path . "/css/structure.css?bust=003"
 			),
 			array(
 				"active" => true,
-				"href" => $path . "/css/structure-800px.css?bust=002",
+				"href" => $path . "/css/structure-800px.css?bust=003",
 				"media" => "screen and (min-width: 800px)"
 			),
 			array(
 				"active" => true,
-				"href" => $path . "/css/headings.css?bust=002"
+				"href" => $path . "/css/headings.css?bust=003"
 			),
 			array(
 				"active" => true,
-				"href" => $path . "/css/ux.css?bust=002"
+				"href" => $path . "/css/ux.css?bust=003"
 			),
 			array(
 				"active" => true,
-				"href" => $path . "/css/responsive.css?bust=002"
+				"href" => $path . "/css/responsive.css?bust=003"
 			),
 			array(
 				"active" => true,
-				"href" => $path . "/css/main-menu.css?bust=002"
+				"href" => $path . "/css/main-menu.css?bust=003"
 			),
 			array(
 				"active" => true,
-				"href" => $path . "/css/tables.css?bust=002"
+				"href" => $path . "/css/tables.css?bust=003"
 			),
 			array(
 				"active" => true,
-				"href" => $path . "/css/form.css?bust=002"
+				"href" => $path . "/css/form.css?bust=003"
 			),
 			array(
 				"active" => true,
-				"href" => $path . "/css/style.css?bust=002"
+				"href" => $path . "/css/style.css?bust=003"
 			),
 			array(
 				"active" => true,
-				"href" => $path . "/css/drawer.css?bust=002"
+				"href" => $path . "/css/drawer.css?bust=003"
 			),
 			array(
 				"active" => true,
-				"href" => $path . "/css/colors.css?bust=002"
+				"href" => $path . "/css/colors.css?bust=003"
 			),
 			array(
 				"active" => true,
-				"href" => $path . "/css/widgets.css?bust=002"
+				"href" => $path . "/css/widgets.css?bust=003"
+			),
+			array(
+				"active" => true,
+				"href" => $path . "/css/tooltip.css?bust=003"
 			)
 		);
 	
